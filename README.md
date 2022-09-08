@@ -118,7 +118,7 @@
 
 ### 2-4. Learn a Language + Framework
 
-- JAVA(Spring boot), TS(NestJS)
+- JAVA(Spring boot), [TS(NestJS)][TS_LINK]
 - Rust, Go, C#, PHP, Python, Ruby, [JS][JS_LINK]
 
 ### 2-5. Version Control System & Repo hosting Service
@@ -198,3 +198,4 @@
    [JS_LINK]: <https://github.com/t0e8r1r4y/blogContents/tree/main/DEV/lang/js/33-js-concepts>
    [C_LINK]: <https://github.com/nginx/nginx>
    [NODEJS_LINK]: <https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/>
+   [TS_LINK]: <https://github.com/t0e8r1r4y/blogContents/tree/main/DEV/ts>
