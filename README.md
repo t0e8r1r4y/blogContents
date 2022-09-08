@@ -11,7 +11,7 @@
 ### 1-1. Learn a Programming Language
 
 - C
-- C++, Go, Rust, Python, Ruby, JS/Node.js
+- C++, Go, Rust, Python, Ruby, [JS][JS_LINK]/Node.js
 
 ### 1-2. Understand different OS Concepts
 
@@ -119,7 +119,7 @@
 ### 2-4. Learn a Language + Framework
 
 - JAVA(Spring boot), TS(NestJS)
-- Rust, Go, C#, PHP, Python, Ruby
+- Rust, Go, C#, PHP, Python, Ruby, [JS][JS_LINK]
 
 ### 2-5. Version Control System & Repo hosting Service
 
@@ -195,7 +195,4 @@
 
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
-   [Resume]: <>
-   [Medium]: <https://medium.com/@tas.com>
-   [devTeam]: <https://github.com/t0e8r1r4y/devteam/blob/master/README.md>
-   [roadmap]: <https://roadmap.sh>  
+   [JS_LINK]: <https://github.com/t0e8r1r4y/blogContents/tree/main/DEV/lang/js/33-js-concepts>
