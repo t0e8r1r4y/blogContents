@@ -2,9 +2,6 @@
 
 # Career Road - DevOps & BackEnd
 
-<aside>
-  [바로가기] 키워드(링크)
-</aside>
 
 ## 1. DevOps
 
@@ -132,9 +129,10 @@
 
 ### 2-6. Database
 
-- [SQL 튜닝][DB_LINK]
-- Relational : PostgreSQL, MySQL, MariaDB, MS SQL, Oracle
-- ORMs, ACID, Transaction, N+1 Problem, 데이터베이스 정규화/반정규화 Indexex and how they work
+- [데이터 베이스 스터디][DB_LINK]
+- [Relational Database][RDB_LINK] : PostgreSQL, MySQL, MariaDB, MS SQL, Oracle
+- [NoSQL Database][NoSQL_LINK] : Document, Column, Time series, Realtime
+- [More about Database][MOREDB_LINK] : ORMs, ACID & Transaction, N+1 Problem, 데이터베이스 정규화/반정규화, Indexex and how they work
 
 ### 2-7. APIs
 
@@ -201,3 +199,6 @@
    [NODEJS_LINK]: <https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/>
    [TS_LINK]: <https://github.com/t0e8r1r4y/blogContents/tree/main/DEV/ts>
    [DB_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DEV/Database/Database.md#3-NoSQL-%EB%B6%84%EB%A5%98>
+   [RDB_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DEV/Database/RDB.md>
+   [NoSQL_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DEV/Database/NoSQL.md>
+   [MOREDB_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DEV/Database/MoreAboutDatabase.md>
