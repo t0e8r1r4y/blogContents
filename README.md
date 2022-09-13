@@ -132,6 +132,7 @@
 
 ### 2-6. Database
 
+- [SQL 튜닝][DB_LINK]
 - Relational : PostgreSQL, MySQL, MariaDB, MS SQL, Oracle
 - ORMs, ACID, Transaction, N+1 Problem, 데이터베이스 정규화/반정규화 Indexex and how they work
 
@@ -199,3 +200,4 @@
    [C_LINK]: <https://github.com/nginx/nginx>
    [NODEJS_LINK]: <https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/>
    [TS_LINK]: <https://github.com/t0e8r1r4y/blogContents/tree/main/DEV/ts>
+   [DB_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DEV/Database/Database.md#3-NoSQL-%EB%B6%84%EB%A5%98>
