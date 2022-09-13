@@ -11,6 +11,8 @@
 
 ## 1. ACID Transactions
 
+
+- [세부내용][ACIDTRANSACTION_LINK]
 - Transcation 요약
     - a database transaction is a sequence of multiple operations performed on a database, and all served as a **single logical unit of work** — taking place wholly or not at all. In other words, there’s never a case that *only half of the operations* are performed and the results saved. When a database transaction is in flight, the database state may be temporarily inconsistent, but when the transaction is committed or ends, the changes are applied.
     - 여러 작업을 하나로 묶은 작업수행의 논리적 단위.
@@ -38,3 +40,10 @@
 ## 5. Sharding Strategies
 
 ## 6. CAP Theorem
+
+
+
+**Thanks!**
+
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+   [ACIDTRANSACTION_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DEV/Database/MoreAboutDatabase/transaction%26acid.md>
