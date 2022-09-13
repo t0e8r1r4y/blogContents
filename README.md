@@ -132,7 +132,7 @@
 - [데이터 베이스 스터디][DB_LINK]
 - [Relational Database][RDB_LINK] : PostgreSQL, MySQL, MariaDB, MS SQL, Oracle
 - [NoSQL Database][NoSQL_LINK] : Document, Column, Time series, Realtime
-- [More about Database][MOREDB_LINK] : ORMs, ACID & Transaction, N+1 Problem, 데이터베이스 정규화/반정규화, Indexex and how they work
+- [More about Database][MOREDB_LINK] : ORMs, [ACID & Transaction][TRANSCATIONACID_LINK], N+1 Problem, 데이터베이스 정규화/반정규화, Indexex and how they work
 
 ### 2-7. APIs
 
@@ -202,3 +202,4 @@
    [RDB_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DEV/Database/RDB.md>
    [NoSQL_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DEV/Database/NoSQL.md>
    [MOREDB_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DEV/Database/MoreAboutDatabase.md>
+   [TRANSCATIONACID_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DEV/Database/MoreAboutDatabase/transaction%26acid.md>
