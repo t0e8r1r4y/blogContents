@@ -24,7 +24,7 @@
 ## 1. 메인 자료
 | TITLE | LINK | SUMMERY | 
 | ------ | ------ | ------ |
-| 친절한SQL튜닝 | | 개발자를 위한 SQL 튜닝 입문서 |
+| 친절한SQL튜닝 |[wiki][BOOK_WIKI] | 개발자를 위한 SQL 튜닝 입문서 |
 
 ## 2. 부 주제
 | TITLE | LINK | SUMMERY | 
@@ -66,3 +66,4 @@
    [TRINO]: <https://trino.io/>
    [HADOOP]: <https://git-wip-us.apache.org/repos/asf?p=hadoop.git>
    [SPARK]: <https://github.com/apache/spark>
+   [BOOK_WIKI]: <https://github.com/t0e8r1r4y/SQLP_STUDY/wiki>
