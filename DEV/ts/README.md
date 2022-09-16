@@ -28,6 +28,9 @@
 | ------ | ------ | ------ |
 | Docs | [링크][TS_DOC] | TS Document |
 | Docs | [한국어 번역][TS_DOC_KR] | TS Document |
+| HandsBook | [핸드북][TS_HAND_BOOK] | 타입스크립트 핸드북 |
+                                                                                                                                              
+                                                                                                                                              
 
 ## 2. NestJS
 | TITLE | LINK | SUMMERY | 
@@ -57,3 +60,4 @@
    [WANAGO_NEST]: <https://wanago.io/2020/05/11/nestjs-api-controllers-routing-module/>
    [TS_DOC]: <https://www.typescriptlang.org/ko/>
    [TS_DOC_KR]: <https://radlohead.gitbook.io/typescript-deep-dive/>
+   [TS_HAND_BOOK]: <https://joshua1988.github.io/ts/>
