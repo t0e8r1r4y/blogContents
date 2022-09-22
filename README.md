@@ -170,10 +170,11 @@
 ### 2-13. Architectural Patterns
 
 - Monolithic Apps
-- Microservices
+- [Microservices][MSA_LINK]
 - SOA
-- CQRS and Event Sourcing
-- Serverless
+- [CQRS][CQRS_LINK] and [Event Sourcing][EVENTSOURCING_LINK]
+- [Serverless][SERVERLESS_LINK]
+- [EDA][EDA_LINK] : 아래 Message Brokers를 적용 시 가지는 아키텍처 패턴
 
 ### 2-14. Message Brokers
 
@@ -204,3 +205,8 @@
    [MOREDB_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DEV/Database/MoreAboutDatabase.md>
    [TRANSCATIONACID_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DEV/Database/MoreAboutDatabase/transaction%26acid.md>
    [ORMs_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DEV/Database/MoreAboutDatabase/ORMs.md>
+   [MSA_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/ArchitecturalPatterns/MSA.md>
+   [EVENTSOURCING_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/ArchitecturalPatterns/EventSourcing.md>
+   [CQRS_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/ArchitecturalPatterns/CQRS.md>
+   [SERVERLESS_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/ArchitecturalPatterns/Serverless.md>
+   [EDA_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/ArchitecturalPatterns/EDA.md>
