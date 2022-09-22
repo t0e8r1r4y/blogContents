@@ -39,7 +39,7 @@
 | Nest.js는 실제로 어떻게 의존성을 주입해줄까? | [coaley님 블로그][NESTJS_INJECTION] | DFS로 모듈을 찾아 토큰 정보를 기반으로 실제 인스턴스를 생성하여 의존성을 관리하더라 |
 | NestJs로 배우는 백엔드 프로그래밍 | [wikibook][GITBOOK_NESTJS] | 관심사 분리 방법과 클린 아키텍처에 대한 소개가 좋음 |
 | API with NestJS | [WANAGO.IO][WANAGO_NEST] | NestJS에서 많이 쓰이는 부분에 대해서 주제별 정리가 잘 됨 |
-| Custom Decorator | [ZOOM 기술블로그] | 줌 기술블로그에서 커스텀 데코레이터 제작과 관련된 글을 잘 정리함 |
+| Custom Decorator | [ZOOM 기술블로그][TS_CUSTOM_DECO] | 줌 기술블로그에서 커스텀 데코레이터 제작과 관련된 글을 잘 정리함 |
 
 ## 3. 설계 패턴
 | TITLE | LINK | SUMMERY | 
