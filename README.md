@@ -198,7 +198,7 @@
    [C_LINK]: <https://github.com/nginx/nginx>
    [NODEJS_LINK]: <https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/>
    [TS_LINK]: <https://github.com/t0e8r1r4y/blogContents/tree/main/DEV/ts>
-   [DB_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DEV/Database/Database.md#3-NoSQL-%EB%B6%84%EB%A5%98>
+   [DB_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DEV/Database/DatabaseStudy.md>
    [RDB_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DEV/Database/RDB.md>
    [NoSQL_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DEV/Database/NoSQL.md>
    [MOREDB_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DEV/Database/MoreAboutDatabase.md>
