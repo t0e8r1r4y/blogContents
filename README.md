@@ -122,17 +122,12 @@
 
 - Git & GitHub
 
-<aside>
-👇🏽 현재 조금 집중이 필요한 부분!!
-
-</aside>
-
 ### 2-6. Database
 
 - [데이터 베이스 스터디][DB_LINK]
 - [Relational Database][RDB_LINK] : PostgreSQL, MySQL, MariaDB, MS SQL, Oracle
 - [NoSQL Database][NoSQL_LINK] : Document, Column, Time series, Realtime
-- [More about Database][MOREDB_LINK] : [ORMs][ORMs_LINK], [ACID & Transaction][TRANSCATIONACID_LINK], N+1 Problem, 데이터베이스 정규화/반정규화, Indexex and how they work
+- [More about Database][MOREDB_LINK] : [ORMs][ORMs_LINK], [ACID & Transaction][TRANSCATIONACID_LINK], N+1 Problem, 데이터베이스 정규화/반정규화, [Indexes and how they work][INDEX_LINK]
 
 ### 2-7. APIs
 
@@ -163,9 +158,9 @@
 
 ### 2-12. Design and Development Principles
 
-- Domain Driven Design
-- Test Driven Development
-- SOLID
+- [Domain Driven Design][DDD_LINK]
+- [Test Driven Development][TDD_LINK]
+- [SOLID][SOLID_LINK]
 
 ### 2-13. Architectural Patterns
 
@@ -187,7 +182,7 @@
 
 ### 2-15. GraphQL
 
-- Apollo
+- [Apollo][APOLLO_LINK]
 - Relay Modern
 
 ### 2-16. WebSockets
@@ -210,3 +205,8 @@
    [CQRS_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/ArchitecturalPatterns/CQRS.md>
    [SERVERLESS_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/ArchitecturalPatterns/Serverless.md>
    [EDA_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/ArchitecturalPatterns/EDA.md>
+   [INDEX_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DEV/Database/Indexing.md>
+   [APOLLO_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/GraphQL/Apollo.md>
+   [TDD_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DesignAndDevelopmentPrinciple/TDD.md>
+   [DDD_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DesignAndDevelopmentPrinciple/DDD.md>
+   [SOLID_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DesignAndDevelopmentPrinciple/SOLID.md>
