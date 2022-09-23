@@ -60,7 +60,7 @@
 
 ### 1-6. Learn Infrastructure as Code
 
-- container : Docker, LXC
+- [container][CONTAINER_LINK] : Docker, LXC
 - Service Mesh : Consul, Istio, Envoy, Linkerd
 - Configuration Mgmt : Ansible, Chef, Salt, Puppet
 - Container Orchestration : Kubernetes, Docker Swarm, Nomad, Mesos
@@ -178,7 +178,7 @@
 
 ### 2-15. Containerization vs Virtualization + Cloud
 
-- about Container
+- [about Container][CONTAINER_LINK]
 - docker
 
 ### 2-15. GraphQL
@@ -211,3 +211,4 @@
    [TDD_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DesignAndDevelopmentPrinciple/TDD.md>
    [DDD_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DesignAndDevelopmentPrinciple/DDD.md>
    [SOLID_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DesignAndDevelopmentPrinciple/SOLID.md>
+   [CONTAINER_LINK]: <https://github.com/t0e8r1r4y/container-and-k8s/blob/main/README.md>
