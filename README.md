@@ -178,6 +178,7 @@
 
 ### 2-15. Containerization vs Virtualization + Cloud
 
+- about Container
 - docker
 
 ### 2-15. GraphQL
