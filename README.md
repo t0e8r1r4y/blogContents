@@ -91,7 +91,7 @@
 
 ### 2-1. Internet
 
-- Web 동작 과정
+- [Web 동작 과정][WEBWORKING_LINK]
 - DNS and how it works?
 - hosting 이란?
 - Browsers and how they work?
@@ -212,3 +212,4 @@
    [DDD_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DesignAndDevelopmentPrinciple/DDD.md>
    [SOLID_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DesignAndDevelopmentPrinciple/SOLID.md>
    [CONTAINER_LINK]: <https://github.com/t0e8r1r4y/container-and-k8s/blob/main/README.md>
+   [WEBWORKING_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/Internet/Web.md>
