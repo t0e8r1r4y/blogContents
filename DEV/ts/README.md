@@ -17,7 +17,7 @@
 ## 목차
 
 1. **[타입스크립트](#1-타입스크립트)**
-1. **[NestJS](#2-NestJS)**
+1. **[NestJS](#2-nestjs)**
 1. **[설계 패턴](#3-설계-패턴)**
 1. **[클린 코드](#4-클린-코드)**
 
@@ -40,10 +40,13 @@
 | NestJs로 배우는 백엔드 프로그래밍 | [wikibook][GITBOOK_NESTJS] | 관심사 분리 방법과 클린 아키텍처에 대한 소개가 좋음 |
 | API with NestJS | [WANAGO.IO][WANAGO_NEST] | NestJS에서 많이 쓰이는 부분에 대해서 주제별 정리가 잘 됨 |
 | Custom Decorator | [ZOOM 기술블로그][TS_CUSTOM_DECO] | 줌 기술블로그에서 커스텀 데코레이터 제작과 관련된 글을 잘 정리함 |
+| Nest.Js Step by Step | [codemag][TS_STEP_LINK] | 기본 세팅과 구성에 대해서 정리가 잘 되어있음 |
+
 
 ## 3. 설계 패턴
 | TITLE | LINK | SUMMERY | 
 | ------ | ------ | ------ |
+
 
 ## 4. 클린 코드
 | TITLE | LINK | SUMMERY | 
@@ -63,3 +66,4 @@
    [TS_DOC_KR]: <https://radlohead.gitbook.io/typescript-deep-dive/>
    [TS_HAND_BOOK]: <https://joshua1988.github.io/ts/>
    [TS_CUSTOM_DECO]: <https://zuminternet.github.io/nestjs-custom-decorator/>
+   [TS_STEP_LINK]: <https://www.codemag.com/Article/1907081/Nest.js-Step-by-Step>
