@@ -7,7 +7,7 @@
 
 ### 1-1. Learn a Programming Language
 
-- [C][C_LINK] : C 프로그래밍 참고 Repo
+- C : [C 프로그래밍 참고 Repo][C_LINK]
 - C++, Go, Rust, Python, Ruby, [JS][JS_LINK]/[Node.js][NODEJS_LINK]
 
 ### 1-2. Understand different OS Concepts
@@ -192,7 +192,7 @@
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
    [JS_LINK]: <https://github.com/t0e8r1r4y/blogContents/tree/main/DEV/lang/js/33-js-concepts>
-   [C_LINK]: <https://github.com/nginx/nginx>
+   [C_LINK]: <https://github.com/t0e8r1r4y/C-CPLUS/blob/main/README.md>
    [NODEJS_LINK]: <https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/>
    [TS_LINK]: <https://github.com/t0e8r1r4y/blogContents/tree/main/DEV/ts>
    [DB_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DEV/Database/DatabaseStudy.md>
