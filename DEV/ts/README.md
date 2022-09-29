@@ -18,8 +18,6 @@
 
 1. **[타입스크립트](#1-타입스크립트)**
 1. **[NestJS](#2-nestjs)**
-1. **[설계 패턴](#3-설계-패턴)**
-1. **[클린 코드](#4-클린-코드)**
 
 
 
@@ -41,16 +39,8 @@
 | API with NestJS | [WANAGO.IO][WANAGO_NEST] | NestJS에서 많이 쓰이는 부분에 대해서 주제별 정리가 잘 됨 |
 | Custom Decorator | [ZOOM 기술블로그][TS_CUSTOM_DECO] | 줌 기술블로그에서 커스텀 데코레이터 제작과 관련된 글을 잘 정리함 |
 | Nest.Js Step by Step | [codemag][TS_STEP_LINK] | 기본 세팅과 구성에 대해서 정리가 잘 되어있음 |
-
-
-## 3. 설계 패턴
-| TITLE | LINK | SUMMERY | 
-| ------ | ------ | ------ |
-
-
-## 4. 클린 코드
-| TITLE | LINK | SUMMERY | 
-| ------ | ------ | ------ |
+| NodeJS Event Loop | [직방기술블로그][NODE_JS_LINK] | NestJS의 기반이 되는 NodeJs 엔진에 대한 내용입니다. |
+| Nestjs vs spring | [biud436][NODEVSSPRING_LINK] | NestJs와 Spring framework에 대한 비교글입니다. |
 
 
 
@@ -67,3 +57,5 @@
    [TS_HAND_BOOK]: <https://joshua1988.github.io/ts/>
    [TS_CUSTOM_DECO]: <https://zuminternet.github.io/nestjs-custom-decorator/>
    [TS_STEP_LINK]: <https://www.codemag.com/Article/1907081/Nest.js-Step-by-Step>
+   [NODE_JS_LINK]: <https://medium.com/zigbang/nodejs-event-loop%ED%8C%8C%ED%97%A4%EC%B9%98%EA%B8%B0-16e9290f2b30>
+   [NODEVSSPRING_LINK]: <https://blog.naver.com/PostView.naver?blogId=biud436&logNo=222611201210&parentCategoryNo=&categoryNo=201&viewDate=&isShowPopularPosts=true&from=search>
