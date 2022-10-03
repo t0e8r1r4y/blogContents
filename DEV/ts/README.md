@@ -42,7 +42,7 @@
 | NodeJS Event Loop | [직방기술블로그][NODE_JS_LINK] | NestJS의 기반이 되는 NodeJs 엔진에 대한 내용입니다. |
 | Nestjs vs spring | [biud436][NODEVSSPRING_LINK] | NestJs와 Spring framework에 대한 비교글입니다. |
 | NestJS Document | [애니띵님블로그][ANYTHING_BLOG] | 나중에 내가 한 NestJS 정리할 때 참고 할 목적 |
-
+| Swagger NesgJS | [git][RYANSIN_BLOG] | Swagger 적용 참고 |
 
 
 ---
@@ -61,3 +61,4 @@
    [NODE_JS_LINK]: <https://medium.com/zigbang/nodejs-event-loop%ED%8C%8C%ED%97%A4%EC%B9%98%EA%B8%B0-16e9290f2b30>
    [NODEVSSPRING_LINK]: <https://blog.naver.com/PostView.naver?blogId=biud436&logNo=222611201210&parentCategoryNo=&categoryNo=201&viewDate=&isShowPopularPosts=true&from=search>
    [ANYTHING_BLOG]: <https://any-ting.tistory.com/118?category=517156>
+   [RYANSIN_BLOG]: <https://github.com/Ryan-Sin/swagger-nestjs-codegen>
