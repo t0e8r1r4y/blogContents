@@ -138,7 +138,7 @@
 - JSON APIs
 - gRPC
 
-### 2-8. Caching
+### 2-8. [Caching][CACHE_LINL]
 
 - CDN, Client Side, Server Side
 - Redis, Memcached
@@ -215,3 +215,4 @@
    [WEBWORKING_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/Internet/Web.md>
    [FRONT_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/BasicFront/BasicFront.md>
    [SPRING_LINK]: <https://github.com/t0e8r1r4y/springframework/tree/main>
+   [CACHE_LINL]: <https://github.com/t0e8r1r4y/blogContents/blob/main/Cache/Cache.md>
