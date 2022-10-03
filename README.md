@@ -96,7 +96,7 @@
 - hosting 이란?
 - Browsers and how they work?
 
-### 2-2. Basic Frontend Knowlege
+### 2-2. [Basic Frontend Knowlege][FRONT_LINK]
 
 - HTML, CSS, JS
 - React, tailwind
@@ -213,3 +213,4 @@
    [SOLID_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DesignAndDevelopmentPrinciple/SOLID.md>
    [CONTAINER_LINK]: <https://github.com/t0e8r1r4y/container-and-k8s/blob/main/README.md>
    [WEBWORKING_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/Internet/Web.md>
+   [FRONT_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/BasicFront/BasicFront.md>
