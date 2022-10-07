@@ -120,7 +120,7 @@
 
 ### 2-5. Version Control System & Repo hosting Service
 
-- Git & GitHub
+- [Git & GitHub][GIT_LINK]
 
 ### 2-6. Database
 
@@ -216,3 +216,4 @@
    [FRONT_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/BasicFront/BasicFront.md>
    [SPRING_LINK]: <https://github.com/t0e8r1r4y/springframework/tree/main>
    [CACHE_LINL]: <https://github.com/t0e8r1r4y/blogContents/blob/main/Cache/Cache.md>
+   [GIT_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/GIT/git.md>
