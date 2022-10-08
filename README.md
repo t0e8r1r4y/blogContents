@@ -26,7 +26,7 @@
 
 ### 1-3. Learn about Managing Servers
 
-- arm linux
+- [arm linux][ARM_LINUX_LINK]
 - linux command
     - ps, top, htop, atop, lsof, nmon, iostat, sar, vmstat, mtr, ping, nmap, netstat, strace, ftrace, du, df, dmesg, exec, fork, uname -ar,
     - awk, sed, grep, egrep, echo, chmod
@@ -217,3 +217,4 @@
    [SPRING_LINK]: <https://github.com/t0e8r1r4y/springframewordk/blob/main/README.md>
    [CACHE_LINL]: <https://github.com/t0e8r1r4y/blogContents/blob/main/Cache/Cache.md>
    [GIT_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/GIT/git.md>
+   [ARM_LINUX_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/linux/armlinux.md>
