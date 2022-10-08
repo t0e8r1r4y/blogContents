@@ -59,3 +59,4 @@ git checkout -t (원격 브랜치)
 
 ## 참고자료
 - [git 브랜치 학습 게임](https://learngitbranching.js.org/?locale=ko)
+- [git 브랜치 관리 공식문수](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-a-branch-for-an-issue)
