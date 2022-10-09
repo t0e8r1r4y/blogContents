@@ -73,7 +73,7 @@
 
 ### 1-8. Learn how to monitor software and infrastructure
 
-- Infrastructure Monitoring : Prometheus, Grafana, Nagios, Zabbix, Monit, Datadog
+- Infrastructure Monitoring : [Prometheus][PROMETHEUS_LINK], Grafana, Nagios, Zabbix, Monit, Datadog
 - Application Monitoring : Jaeger, New Relic, AppDynamic, Istana, Open Telemety
 - Logs Management : Elastic Stack, Graylog, Splunk, Papertail, Loki
 
@@ -218,3 +218,4 @@
    [CACHE_LINL]: <https://github.com/t0e8r1r4y/blogContents/blob/main/Cache/Cache.md>
    [GIT_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/GIT/git.md>
    [ARM_LINUX_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/linux/armlinux.md>
+   [PROMETHEUS_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/monitorSoftwareAndInfrastructure/prometheus.md>
