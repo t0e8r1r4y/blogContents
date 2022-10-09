@@ -196,3 +196,6 @@ http_requests_total{method="POST", handler="/dir"}
 | 프로메테우스 인프라스트럭처 모니터링 | 도서입니다. | pdf 개인 소장 |
 | 공식사이트 | 프로메테우스 공식 사이트입니다. | [링크](https://prometheus.io) |
 | 오픈소스 | 프로메테우스 git 오픈소스입니다. | [링크](https://github.com/prometheus/docs#contributing-changes)|
+| 조대협님 블로그 | 프로메테우스의 기본 개념과 구조에 대한 글입니다. | [링크](https://bcho.tistory.com/1372) |
+| Push 기법에 대한 설명 | 메트릭 수집과 관련하여 중요한 개념입니다. | [링크](https://ko.wikipedia.org/wiki/푸시_기법#풀_기법과_비교) |
+| Pull 기법에 대한 설명 | 메트릭 수집과 관련하여 중요한 개념입니다. | [링크](https://en.wikipedia.org/wiki/Pull_technology) |
