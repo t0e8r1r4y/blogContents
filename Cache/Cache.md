@@ -13,7 +13,7 @@
 - [oracle database의 구조][ORACLE_STUDY_LINK]
 
 ## 웹 백엔드 성능 최적화에서 사용하는 캐시
--  [spring local cache][]
+-  [spring local cache][SPINRG_LOCAL_CACHE]
 -  [redis 캐시전략][MY_BLOG2_LINK]
 
 ## 프론트엔드 웹 성능 개선에 사용되는 캐시
