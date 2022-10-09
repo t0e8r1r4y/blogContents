@@ -13,6 +13,7 @@
 - [oracle database의 구조][ORACLE_STUDY_LINK]
 
 ## 웹 백엔드 성능 최적화에서 사용하는 캐시
+-  [spring local cache][]
 -  [redis 캐시전략][MY_BLOG2_LINK]
 
 ## 프론트엔드 웹 성능 개선에 사용되는 캐시
@@ -31,3 +32,4 @@
    [ORACLE_STUDY_LINK]: <https://github.com/kmw8551/study/blob/main/oraclearch/src/main/java/oracle/20220925_1%EC%9E%A5.md>
    [CACHE_STRATEGY]: <https://medium.com/@tas.com/%EC%BA%90%EC%8B%9C-cache-%EC%99%80-cache%EC%A0%84%EB%9E%B5-6cde62a2c9d8>
    [MY_BLOG2_LINK]: <https://medium.com/@tas.com/cache-aside-%ED%8C%A8%ED%84%B4-%EA%B5%AC%ED%98%84%EC%9D%84-%ED%86%B5%ED%95%9C-springboot-redis-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-6416039b96a5>
+   [SPINRG_LOCAL_CACHE]: <https://wave1994.tistory.com/182>
