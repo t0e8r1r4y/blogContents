@@ -15,14 +15,15 @@
 | MSA EZ | [MSA 관련 학습][MSAEZ_LINK] |
 
 
-## 플랫폼에서 사용한 툴
+## 참고자료
+#### 플랫폼에서 사용한 도구
 | Title | Link |  
 | ------ | ------ |  
 | MSA EZ | [MSA 관련 학습][MSAEZ_LINK] |
 | Miro | |
 | Xoom Designer | |
 
-## 관련 도서 모음
+#### 관련 도서 모음
 | Title | 저자 혹은 링크 |  
 | ------ | ------ |  
 | Introducing Event Storming | Alberto Brandolini |
@@ -35,7 +36,12 @@
 | Database Design in MSA Deep dive | Designing Data Intensive Applications |
 | API design and REST | [링크](https://pepa.holla.cz/wp-content/uploads/2016/01/REST-in-Practice.pdf?fbclid=IwAR3XSyyeNpTqAehkNSesMyCv6Rnnuhqc901meKjsG6weWLab-u84xGiMJmw) |
 
+#### SNS
+| Title | Link |  
+| ------ | ------ | 
+| DDD Facebook | [링크][DDD Facebook] |
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
    [MSAEZ_LINK]: <https://intro-kor.msaez.io/started/#%EC%A3%BC%EC%9A%94-features>
    [MSA_ARCH]: <https://medium.com/@tas.com/msa-micro-service-architecture-dfa4cc194f2a>
+   [DDD Facebook]: <https://www.facebook.com/groups/cloudswmoding>
