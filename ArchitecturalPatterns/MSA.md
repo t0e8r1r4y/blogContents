@@ -25,9 +25,9 @@
 | 1 | 게이트웨이를 통한 진입점 통일 | |
 | 2 | Req/Res 방식의 MSA 연동 | |
 | 3 | Req/Res 방식에 장애 전파 차단(`서킷브레이커` 사용) | |
-| 4 | JWT 토큰 기반 인증인가 w/ Keycloak Authz-svr | [{구현} Spring JWT 사용][JWT-SPRING] |
+| 4 | JWT 토큰 기반 인증인가 w/ Keycloak Authz-svr | [(구현) Spring JWT 사용][JWT-SPRING] |
 | 5 | Authz 서버 설정 w/ GUI Console | |
-| 6 | Gateway에 OAuth2 Client 설정 | [ (구현)Google OAuth 사용][Google-OAuth] |
+| 6 | Gateway에 OAuth2 Client 설정 | [(구현)Google OAuth 사용][Google-OAuth] |
 | 7 | 주문서비스에 Fine grained RBAC 설정 | |
 | 8 | Pub/Sub 방식의 MSA 연동 | |
 | 9 | Pub/Sub - Compensation and Correlation | |
@@ -64,7 +64,7 @@
 | 12 | Self-healing & Zero-downtime Deploy | |
 | 13 | k8s L7 Router - Ingress | |
 | 14 | 12번가 Mall에 토큰인증 적용하기 | |
-| 15 | Mircoservice 모니터링 w/ Prometheus&Grafana | [프로메테우스 사용경험][Spring-prometheus] |
+| 15 | Mircoservice 모니터링 w/ Prometheus&Grafana | [(구현) 프로메테우스 사용경험][Spring-prometheus] |
 | 16 | MSA Logging with EFK Stacks | |
 | 17 | 컨테이너 운영 무작정 따라하기 | |
 | 18 | Service Mesh; Istio | |
