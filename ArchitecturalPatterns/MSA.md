@@ -6,7 +6,7 @@
 ## 구성
 - MSA를 ebay 비즈니스 모델에 적용시켜 `설계`한 내용과 MSA 구성은 [블로그][MSA_ARCH]에 정리하였습니다.
 - 아래 내용은 MSA EZ 플랫폼에서 MSA에 대해서 학습한 내용을 정리하였습니다.
-- 위 내용을 바탕으로 Notification Service를 MSA로 설계하고 구현하고자 합니다.
+- 위 내용을 바탕으로 `Notification Service`를 MSA로 설계하고 구현하고자 합니다.
 
 
 <br/>
