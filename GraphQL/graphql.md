@@ -71,4 +71,4 @@
 
 
 ## 2.  Hands-On
-- 타입스크립트에 GraphQL 적용
+- [타입스크립트에 GraphQL 적용](https://github.com/t0e8r1r4y/delivery-food-service)
