@@ -38,7 +38,7 @@
 | 12 | Retry & Dead Letter Queue | |
 | 13 | Data Pipeline w/ Kafka Connect | |
 | 14 | 데이터프로젝션-컴포지트서비스 | |
-| 15 | 데이터프로젝션-GraphQL | |
+| 15 | 데이터프로젝션-GraphQL | [(개념)GrapQL][GraphQL-Concept], [(구현)NestJS+Apollo][GraphQL-Project] |
 | 16 | CQRS 샘플 모델링 | |
 | 17 | Docker Image Build & Push| |
 | 18 | Pub/Sub 방식의 MSA 연동 | |
@@ -54,17 +54,17 @@
 | ------ | ------ | ------ |
 | 1 | Docker Basics | |
 | 2 | AWS Cloud, k8s Cluster 환경설정 | |
-| 3 | 컨테이너 생성 무작정 따라하기 | |
+| 3 | 컨테이너 생성 무작정 따라하기 | [(실행) 도커 컨테이너 ][Docker-Container] |
 | 4 | 객체 식별자와 Annotations | |
-| 5 | 12번가 마이크로서비스 배포 | |
+| 5 | 12번가 마이크로서비스 배포 | 해당 섹션은 다루지 않습니다. |
 | 6 | Microservices 자동확장 (Auto Scaling) | |
-| 7 | Pod & 마이크로서비스 트러블 슈팅 | |
+| 7 | Pod & 마이크로서비스 트러블 슈팅 | [(개념/실행) k8s Pod ][k8s-POD] |
 | 8 | Namespaces를 활용한 Cluster 가상화 | |
-| 9 | Kubernetes 로더 밸런서-Service | |
+| 9 | Kubernetes 로더 밸런서-Service | [(개념/실행) k8s service][K8S-SERVICE] |
 | 10 | Cloud 저장소 Persistent Volume(AWS) | |
 | 11 | 환경설정 관리- ConfigMap/Secret | |
 | 12 | Self-healing & Zero-downtime Deploy | |
-| 13 | k8s L7 Router - Ingress | |
+| 13 | k8s L7 Router - Ingress | [(개념/실행) k8s Ingress][K8S-SERVICE] |
 | 14 | 12번가 Mall에 토큰인증 적용하기 | |
 | 15 | Mircoservice 모니터링 w/ Prometheus&Grafana | [(구현) 프로메테우스 사용경험][Spring-prometheus] |
 | 16 | MSA Logging with EFK Stacks | |
@@ -116,3 +116,8 @@
    [Spring-prometheus]: <https://github.com/t0e8r1r4y/springframewordk/blob/main/prometheus_spring/README.md>
    [JWT-SPRING]: <https://github.com/t0e8r1r4y/springframewordk/blob/main/jwt/springjwt.md>
    [Google-OAuth]: <https://github.com/t0e8r1r4y/springframewordk/tree/main/googleAuth>
+   [K8S-SERVICE]: <https://github.com/t0e8r1r4y/container-and-k8s-aws/blob/main/chapter5/README.md>
+   [k8s-POD]: <https://github.com/t0e8r1r4y/container-and-k8s-aws/tree/main/chapter3>
+   [Docker-Container]: <https://github.com/t0e8r1r4y/container-and-k8s-aws/tree/main/chapter2>
+   [GraphQL-Concept]: <https://github.com/t0e8r1r4y/blogContents/blob/main/GraphQL/graphql.md>
+   [GraphQL-Project]: <https://github.com/t0e8r1r4y/delivery-food-service#readme>
