@@ -181,7 +181,7 @@
 - [about Container][CONTAINER_LINK]
 - docker
 
-### 2-15. GraphQL
+### 2-15. [GraphQL][GRAPHQL_LINK]
 
 - [Apollo][APOLLO_LINK]
 - Relay Modern
@@ -219,3 +219,4 @@
    [GIT_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/GIT/git.md>
    [ARM_LINUX_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/linux/armlinux.md>
    [PROMETHEUS_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/monitorSoftwareAndInfrastructure/prometheus.md>
+   [GRAPHQL_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/GraphQL/graphql.md>
