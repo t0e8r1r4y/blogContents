@@ -1,5 +1,9 @@
 # Transaction과 Acid 내용 상세
 
+
+[`Oracle Trancation` 정리 추가](https://github.com/kmw8551/study/blob/main/oraclearch/src/main/java/oracle/221013_2%EC%9E%A5.md)
+
+
 # What is a database transaction?
 
 - In short, a database transaction is a sequence of multiple operations performed on a database, and all served as a single logical unit of work — taking place wholly or not at all.
