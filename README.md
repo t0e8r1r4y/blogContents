@@ -169,7 +169,7 @@
 - SOA
 - [CQRS][CQRS_LINK] and [Event Sourcing][EVENTSOURCING_LINK]
 - [Serverless][SERVERLESS_LINK]
-- [EDA][EDA_LINK] : 아래 Message Brokers를 적용 시 가지는 아키텍처 패턴
+- [EDA][EDA_LINK]
 
 ### 2-14. Message Brokers
 
