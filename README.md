@@ -12,17 +12,17 @@
 
 ### 1-2. Understand different OS Concepts
 
-- POSIX
-- Networking
-- Sockets
-- Procss
+- [POSIX][POSIX_LINK]
+- [Networking][NETWORK_LINK]
+- [Sockets][SOCK_LINK]
+- [Procss][PROCANDTREAD_LINK]
 - I/O Management
 - Virtualization
 - Memory / Storage
-- File System
+- [File System][FILE_LINK]
 - Startup Managemet( initd )
 - Service Management ( systemd )
-- Thread and Concurrency
+- [Thread][PROCANDTREAD_LINK] and Concurrency
 
 ### 1-3. Learn about Managing Servers
 
@@ -221,3 +221,8 @@
    [PROMETHEUS_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/monitorSoftwareAndInfrastructure/prometheus.md>
    [GRAPHQL_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/GraphQL/graphql.md>
    [TEST_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/testing/xUnit.md>
+   [POSIX_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/OSConcepts/posix.md>
+   [NETWORK_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/OSConcepts/Networking.md>
+   [SOCK_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/OSConcepts/Sockets.md>
+   [PROCANDTREAD_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/OSConcepts/ProcessAndThread.md>
+   [FILE_LINK]:  <https://github.com/t0e8r1r4y/blogContents/blob/main/OSConcepts/FileSystem.md>
