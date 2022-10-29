@@ -6,7 +6,7 @@
 <br/>
 
 
-## Socket Programming이란?
+## ✅ Socket Programming이란?
 - 소켓 프로그래밍은 두 노드를 연결하여 통신하는 방법입니다.
 - 서버 소켓, 클라이언트 소켓으로 구분하며, 각각의 연결 형성 방식은 차이가 있습니다.
 
@@ -168,16 +168,16 @@ tcpCreateClient(int ip, unsigned short port )
 <br/>
 
 
-## 소켓통신이 중요한 이유
+## ✅ 소켓통신이 중요한 이유
 - 기본적으로 웹이든 뭐든 소켓통신을 베이스로 이루어진다는 점에서 매우 중요함.
 - TCP/IP 통신은 OS Layer의 3번째 단계로, 그 상위 단계에서 이루어지는 데이터 전송은 모두 3레이어를 통해서 이루어진다.
 
 <br/>
 
-## 소켓 통신 방식 TCP/UDP 차이점
+## ✅ㅣ 소켓 통신 방식 TCP/UDP 차이점
 - TCP와 UDP 통신 프로토콜은 같은 네트워크 레이어에서 이루어지는 방식이지만, 통신의 연결방식, 패킷 교환 방식, 수신 여부 확인 방식의 차이로 속도와 데이터 신뢰성에서 차이를 가지고 있습니다.
 - TCP 통신 방식은 데이터 신뢰성을 확보에 목적성이 강하며 아래 세가지 특징을 가지고 있습니다.
-    - 3-way handshaking과 4-way handshaking을 사용하여 통신 연결상태를 체크하고 송신과 수신의 주체를 명확하게 합니다.
+    - :exclamation:[3-way handshaking과 4-way handshaking](https://github.com/t0e8r1r4y/blogContents/blob/main/OSConcepts/handshake.md)을 사용하여 통신 연결상태를 체크하고 송신과 수신의 주체를 명확하게 합니다.
     - 데이터를 수신하면 ACK 혹은 NAK를 전송하여 수신 여부를 체크하여 정확성을 확보합니다.
     - 패킷을 교환하는 과정에서는 TCP HEADER 프레임에 흐름 제어와 혼잡제어에 필요한 데이터를 표시하여 데이터의 신뢰성을 확보합니다.
     - 단, 데이터의 신뢰성을 확보하는 과정이 UDP에 비해 더 단계가 많기 때문에, 처리 지연이 발생(속도 저하)하고, 통신과 관련하여 CPU 사용에 대한 컴퓨팅 비용이 추가되기 됩니다.
@@ -190,5 +190,5 @@ tcpCreateClient(int ip, unsigned short port )
 
 <br/>
 
-## 웹소켓과의 차이점
+## ✅ 웹소켓과의 차이점
 - 웹소켓은 7Layer에서 생성되는 연결인데, 통신 연결을 위한 3-handshakes와 4-handshakes가 http 프로토콜로 7Layer에서 이뤄진다는 것이 일반 소켓통신과 차이점이다.
