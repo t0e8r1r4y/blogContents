@@ -90,7 +90,7 @@ listenSocket( int portNum, struct sockaddr_in *servAddr )
   - 서버와 클라이언트 간 연결이 형성되고, 데이터를 주고 받을 수 있는 준비가 됨.
 
 
-#### 클라이언트 사이드 소켓
+#### [클라이언트 사이드 소켓](https://github.com/t0e8r1r4y/C-CPLUS/blob/main/AsynchronousCProgramming/client/ClientSocketCtl.c)
 
 ```C
 static SockType_t
