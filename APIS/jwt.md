@@ -1,5 +1,7 @@
 # 세션과 토큰방식의 인증
 
+> [JWT 토큰 구현 spring project](https://github.com/t0e8r1r4y/springframework/tree/main/jwt)
+> [TypeScript 프로젝트](https://github.com/t0e8r1r4y/delivery-food-service)
 
 ## 설명의 전개방향
 
