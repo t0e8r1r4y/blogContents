@@ -31,5 +31,3 @@
 ## 4-way handshake의 기본 매커니즘
 
 
-#### 동작 방식
-![4핸드쉐이크](https://user-images.githubusercontent.com/91730236/198835356-0726f5e0-1e42-4d97-b23c-9345e2a01fcf.png)
