@@ -24,10 +24,10 @@
 #### Dev
 | No | Title | Link |
 | ------ | ------ | ------ |
-| 1 | 게이트웨이를 통한 진입점 통일 | |
+| 1 | 게이트웨이를 통한 진입점 통일 | [스프링게이트웨이][GATEWAY_PR] |
 | 2 | Req/Res 방식의 MSA 연동 | |
-| 3 | Req/Res 방식에 장애 전파 차단(`서킷브레이커` 사용) | |
-| 4 | JWT 토큰 기반 인증인가 w/ Keycloak Authz-svr | [(구현) Spring JWT 사용][JWT-SPRING] |
+| 3 | Req/Res 방식에 장애 전파 차단(`서킷브레이커` 사용) | [서킷브레이커  사용 예제][CIRCUITBREAK-PR] |
+| 4 | JWT 토큰 기반 인증인가 w/ Keycloak Authz-svr | [(구현) Spring JWT 사용][JWT-SPRING], [강의 구현][OAuth2-PR] |
 | 5 | Authz 서버 설정 w/ GUI Console | |
 | 6 | Gateway에 OAuth2 Client 설정 | [(구현)Google OAuth 사용][Google-OAuth] |
 | 7 | 주문서비스에 Fine grained RBAC 설정 | |
@@ -38,8 +38,8 @@
 | 12 | Retry & Dead Letter Queue | |
 | 13 | Data Pipeline w/ Kafka Connect | |
 | 14 | 데이터프로젝션-컴포지트서비스 | |
-| 15 | 데이터프로젝션-GraphQL | [(개념)GrapQL][GraphQL-Concept], [(구현)NestJS+Apollo][GraphQL-Project] |
-| 16 | CQRS 샘플 모델링 | |
+| 15 | 데이터프로젝션-GraphQL | [(개념)GrapQL][GraphQL-Concept], [(구현)NestJS+Apollo][GraphQL-Project], [강의구현][Spring_GraphQL_PR] |
+| 16 | CQRS 샘플 모델링 | [강의구현][Shop_CQRL_PR] |
 | 17 | Docker Image Build & Push| |
 | 18 | Pub/Sub 방식의 MSA 연동 | |
 
@@ -121,3 +121,8 @@
    [Docker-Container]: <https://github.com/t0e8r1r4y/container-and-k8s-aws/tree/main/chapter2>
    [GraphQL-Concept]: <https://github.com/t0e8r1r4y/blogContents/blob/main/GraphQL/graphql.md>
    [GraphQL-Project]: <https://github.com/t0e8r1r4y/delivery-food-service#readme>
+   [CIRCUITBREAK-PR]: <https://github.com/t0e8r1r4y/MSAEZ_Project/tree/main/circuitbreaker/monolithToMisvc>
+   [GATEWAY_PR]: <https://github.com/t0e8r1r4y/MSAEZ_Project/tree/main/Spring-Gateway-OAuth2-Keycloak>
+   [OAuth2-PR]: <https://github.com/t0e8r1r4y/MSAEZ_Project/tree/main/Oauth2-Keycloak>
+   [Spring_GraphQL_PR]: <https://github.com/t0e8r1r4y/MSAEZ_Project/tree/main/dp-graphql>
+   [Shop_CQRL_PR]: <https://github.com/t0e8r1r4y/MSAEZ_Project/tree/main/shopmall_cqrs>
