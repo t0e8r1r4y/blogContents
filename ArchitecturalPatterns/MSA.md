@@ -25,23 +25,23 @@
 | No | Title | Link |
 | ------ | ------ | ------ |
 | 1 | 게이트웨이를 통한 진입점 통일 | [스프링게이트웨이][GATEWAY_PR] |
-| 2 | Req/Res 방식의 MSA 연동 | |
+| 2 | Req/Res 방식의 MSA 연동 | [강의구현][MSA_BASIC] |
 | 3 | Req/Res 방식에 장애 전파 차단(`서킷브레이커` 사용) | [서킷브레이커  사용 예제][CIRCUITBREAK-PR] |
 | 4 | JWT 토큰 기반 인증인가 w/ Keycloak Authz-svr | [(구현) Spring JWT 사용][JWT-SPRING], [강의 구현][OAuth2-PR] |
-| 5 | Authz 서버 설정 w/ GUI Console | |
+| 5 | Authz 서버 설정 w/ GUI Console | [강의구현][key-clock] |
 | 6 | Gateway에 OAuth2 Client 설정 | [(구현)Google OAuth 사용][Google-OAuth] |
 | 7 | 주문서비스에 Fine grained RBAC 설정 | |
-| 8 | Pub/Sub 방식의 MSA 연동 | |
+| 8 | Pub/Sub 방식의 MSA 연동 | [강의구현][PUB_SUB_SHOPPING] |
 | 9 | Pub/Sub - Compensation and Correlation | |
-| 10 | Kafka 스케일링 | |
+| 10 | Kafka 스케일링 | [강의구현][scailing] |
 | 11 | Kafka 수동커밋 | |
-| 12 | Retry & Dead Letter Queue | |
-| 13 | Data Pipeline w/ Kafka Connect | |
-| 14 | 데이터프로젝션-컴포지트서비스 | |
+| 12 | Retry & Dead Letter Queue |[강의구현][retry_deadQueue] |
+| 13 | Data Pipeline w/ Kafka Connect | [강의구헌][data-pipe] |
+| 14 | 데이터프로젝션-컴포지트서비스 | [강의내용][composite_server] |
 | 15 | 데이터프로젝션-GraphQL | [(개념)GrapQL][GraphQL-Concept], [(구현)NestJS+Apollo][GraphQL-Project], [강의구현][Spring_GraphQL_PR] |
 | 16 | CQRS 샘플 모델링 | [강의구현][Shop_CQRL_PR] |
-| 17 | Docker Image Build & Push| |
-| 18 | Pub/Sub 방식의 MSA 연동 | |
+| 17 | Docker Image Build & Push| 도커 컨테이너 생성 및 실행 관련 명령 학습 |
+| 18 | Pub/Sub 방식의 MSA 연동 | 강의 맺음 |
 
 
 
@@ -126,3 +126,10 @@
    [OAuth2-PR]: <https://github.com/t0e8r1r4y/MSAEZ_Project/tree/main/Oauth2-Keycloak>
    [Spring_GraphQL_PR]: <https://github.com/t0e8r1r4y/MSAEZ_Project/tree/main/dp-graphql>
    [Shop_CQRL_PR]: <https://github.com/t0e8r1r4y/MSAEZ_Project/tree/main/shopmall_cqrs>
+   [MSA_BASIC]: <https://github.com/t0e8r1r4y/MSAEZ_Project/tree/main/shopmall_MonoToMs>
+   [key-clock]: <https://github.com/t0e8r1r4y/MSAEZ_Project/tree/main/Spring-Gateway-OAuth2-Keycloak>
+   [composite_server]: <https://github.com/t0e8r1r4y/MSAEZ_Project/tree/main/dp-composite-svc>
+   [retry_deadQueue]: <https://github.com/t0e8r1r4y/MSAEZ_Project/tree/main/retry-dlq>
+   [data-pipe]: <https://github.com/t0e8r1r4y/MSAEZ_Project/tree/main/kafka-connect>
+   [scailing]: <https://github.com/t0e8r1r4y/MSAEZ_Project/tree/main/partition-scaling>
+   [PUB_SUB_SHOPPING]: <https://github.com/t0e8r1r4y/MSAEZ_Project/tree/main/shopmall_2>
