@@ -170,3 +170,10 @@ tcpCreateClient(int ip, unsigned short port )
 
 ## 소켓통신이 중요한 이유
 - 기본적으로 웹이든 뭐든 소켓통신을 베이스로 이루어진다는 점에서 매우 중요함.
+- TCP/IP 통신은 OS Layer의 3번째 단계로, 그 상위 단계에서 이루어지는 데이터 전송은 모두 3레이어를 통해서 이루어진다.
+
+
+<br/>
+
+## 웹소켓과의 차이점
+- 웹소켓은 7Layer에서 생성되는 연결인데, 통신 연결을 위한 3-handshakes와 4-handshakes가 http 프로토콜로 7Layer에서 이뤄진다는 것이 일반 소켓통신과 차이점이다.
