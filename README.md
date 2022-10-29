@@ -134,7 +134,7 @@
 - HATEOAS
 - Open API Spec and Swagger
 - Authntication
-    - Cookie Based, OAuth, JWT etc…
+    - Cookie Based, OAuth, [JWT][JWT_LINK] etc…
 - JSON APIs
 - gRPC
 
@@ -226,3 +226,4 @@
    [SOCK_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/OSConcepts/Sockets.md>
    [PROCANDTREAD_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/OSConcepts/ProcessAndThread.md>
    [FILE_LINK]:  <https://github.com/t0e8r1r4y/blogContents/blob/main/OSConcepts/FileSystem.md>
+   [JWT_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/APIS/jwt.md> 
