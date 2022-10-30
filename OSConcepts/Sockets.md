@@ -190,5 +190,13 @@ tcpCreateClient(int ip, unsigned short port )
 
 <br/>
 
+
+## ✅ 네트워크 통신에서 패킷
+- [빅엔디안 리틀엔디안](https://github.com/t0e8r1r4y/blogContents/blob/main/OSConcepts/Endian.md)
+- TCP/IP 규약은 16비트 32비트 정수에서 빅 엔디안 방식을 사용함
+
+
+<br/>
+
 ## ✅ 웹소켓과의 차이점
 - 웹소켓은 7Layer에서 생성되는 연결인데, 통신 연결을 위한 3-handshakes와 4-handshakes가 http 프로토콜로 7Layer에서 이뤄진다는 것이 일반 소켓통신과 차이점이다.
