@@ -21,7 +21,7 @@
 - Memory / Storage
 - [File System][FILE_LINK]
 - Startup Managemet( initd )
-- Service Management ( systemd )
+- [Service Management ( systemd )][Systemd_Link]
 - [Thread][PROCANDTREAD_LINK] and Concurrency
 
 ### 1-3. Learn about Managing Servers
@@ -228,3 +228,4 @@
    [FILE_LINK]:  <https://github.com/t0e8r1r4y/blogContents/blob/main/OSConcepts/FileSystem.md>
    [JWT_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/APIS/jwt.md> 
    [OAuth_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/APIS/OAuth.md>
+   [Systemd_Link]: <https://github.com/t0e8r1r4y/blogContents/blob/main/linux/systemd.md>
