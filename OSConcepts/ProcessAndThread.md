@@ -116,3 +116,9 @@ Thread는 하나의 프로그램 내에 존재하는 여러 개의 실행 흐름
 - 컨텍스트 스위칭을 한다.
 - 컨텍스트 스위칭으로 다음에 실행하는 프로세스는 finish_task_switch() 함수에서 이전에 실행했던 프로세스 상태가 TASK_DEAD이면 프로세스 스택 공간을 해제
 - 이렇게 동작하는 이유는 process가 스스로 자신의 메모리 공간을 해제하지 못하므로 스위칭을 수행 후 다음에 실행되는 process에게 자신의 스택 메모리 공간을 해제하고 소멸시키도록 동작함
+
+
+<br/>
+
+## 함께보기
+- [동기화 문제](https://github.com/t0e8r1r4y/blogContents/blob/main/OSConcepts/ProcessSynchronization.md)
