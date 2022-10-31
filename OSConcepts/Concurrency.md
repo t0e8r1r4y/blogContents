@@ -2,6 +2,10 @@
 
 > 여러 쓰레드가 동시에 같은 인스턴스의 필드 값에 접근하여 조작하는 행위로 인해 발생하는 문제를 의미
 
+#### 함께보기
+- [동기화](https://github.com/t0e8r1r4y/blogContents/blob/main/OSConcepts/ProcessSynchronization.md)
+
+
 <br/>
 
 ## [Concurrency in C](https://www.classes.cs.uchicago.edu/archive/2018/spring/12300-1/lab6.html)
