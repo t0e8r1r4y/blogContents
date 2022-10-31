@@ -1,6 +1,6 @@
 # 프로세스와 쓰레드
 
-> 정리 원문은 [medium 블로그](https://medium.com/@tas.com/process-thread-%EC%83%9D%EC%84%B1%EA%B3%BC-%EC%A2%85%EB%A3%8C-ff31cdde2b40)에 작성하였습니다. 
+> 정리 원문은 [medium 블로그](https://medium.com/@tas.com/process-thread-%EC%83%9D%EC%84%B1%EA%B3%BC-%EC%A2%85%EB%A3%8C-ff31cdde2b40)에 작성하였습니다. 프로세스에 메모리를 할당하는 내용은 [이쪽 링크](https://medium.com/@tas.com/process%EB%A5%BC-%EB%A9%94%EB%AA%A8%EB%A6%AC%EC%97%90-%ED%95%A0%EB%8B%B9-7ffc737e4e92)
 
 ## 용어 정의
 
