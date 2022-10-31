@@ -8,7 +8,7 @@
 - c언어에서도 멀티쓰레딩을 사용하다보면 동시성 이슈가 생긴다.
 - 해소 방법은 뮤텍스나 세마포어를 사용하거나
 - [조건 변수를 통한 스레드 동기화](https://reakwon.tistory.com/99)를 할 수도 있음.
-- 또한 EDP에서 컨슈머와 프로듀서간 동기화 또한 조건 변수를 사용하거나 아래 예시처럼 flag를 사용하여 처리가 가능합니다.
+- 또한 EDP에서 컨슈머와 프로듀서간 동기화 또한 조건 변수를 사용하거나 아래 예시처럼 flag를 사용하여 처리가 가능합니다. [코드 ](https://github.com/t0e8r1r4y/C-CPLUS/blob/main/AsynchronousCProgramming/client/MessageQueue.c)
 ```C
 
 void pushQueue(unsigned char* scrData, MESSAGEQUEQUE_T* queue )
