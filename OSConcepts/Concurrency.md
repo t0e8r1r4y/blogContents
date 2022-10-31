@@ -4,7 +4,7 @@
 
 #### 함께보기
 - [동기화](https://github.com/t0e8r1r4y/blogContents/blob/main/OSConcepts/ProcessSynchronization.md)
-
+- [동시성 이슈를 spring에서 처리하는 방법](https://www.inflearn.com/course/%EB%8F%99%EC%8B%9C%EC%84%B1%EC%9D%B4%EC%8A%88-%EC%9E%AC%EA%B3%A0%EC%8B%9C%EC%8A%A4%ED%85%9C#curriculum)
 
 <br/>
 
