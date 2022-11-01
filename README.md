@@ -27,7 +27,7 @@
 ### 1-3. Learn about Managing Servers
 
 - [arm linux][ARM_LINUX_LINK]
-- linux command
+- [linux command][COMMAND_LINK]
 - system monitoring
     
     
@@ -101,7 +101,7 @@
 
 ### 2-3. OS and General Knowledge
 
-- Terminal Usage
+- [Terminal Usage][COMMAND_LINK]
 - How OSs work in General
 - Process Management
 - Thread and concurrency
@@ -229,3 +229,4 @@
    [Systemd_Link]: <https://github.com/t0e8r1r4y/blogContents/blob/main/linux/systemd.md>
    [SSH_LINK]: <https://medium.com/@tas.com/ssh-%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C-f4079b1103ab>
    [HTTP_LINK]: <https://medium.com/@tas.com/http-websocket-3dbf0ae22be9>
+   [COMMAND_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/linux/command.md>
