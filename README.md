@@ -34,12 +34,12 @@
 
 ### 1-4. Networking, Security and Protocol
 
-- FTP,  [SSH][SSH_LINK]
+- FTP, [SSH][SSH_LINK]
 - [HTTP(HTTPS)][HTTP_LINK], SSL, TLS, Port Forwarding
 
 ### 1-5. What is and how to setup a _______?
 
-- Proxy
+- [Proxy][Proxy_LINK]
     - Reverse Proxy, Forward Proxy, Firewall, Caching Server, Load Balancer
     - Web Server
         - Nginx, Tomcat
@@ -228,3 +228,4 @@
    [COMMAND_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/linux/command.md>
    [SYSMONITOR_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/linux/monitoring.md>
    [CONCURRENCY_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/OSConcepts/Concurrency.md>
+   [Proxy_LINK]: <https://medium.com/@tas.com/%ED%94%84%EB%A1%9D%EC%8B%9C-%EA%B0%84%EB%8B%A8-%EC%9A%94%EC%95%BD-d84a5c582d54>
