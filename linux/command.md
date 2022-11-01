@@ -5,6 +5,11 @@
 
 <br/>
 
+## 원격 접속
+- ssh, telnet, rsh, scp
+
+<br/>
+
 ## 삭제
 - rm
 ![rmrf](https://user-images.githubusercontent.com/91730236/199245137-71a9ca21-baa1-478a-bc83-cffaf81cf0b4.jpeg)
