@@ -28,8 +28,6 @@
 
 - [arm linux][ARM_LINUX_LINK]
 - linux command
-    - ps, top, htop, atop, lsof, nmon, iostat, sar, vmstat, mtr, ping, nmap, netstat, strace, ftrace, du, df, dmesg, exec, fork, uname -ar,
-    - awk, sed, grep, egrep, echo, chmod
 - system monitoring
     
     
