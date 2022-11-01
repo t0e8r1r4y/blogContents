@@ -4,7 +4,7 @@
 1. 설치한 리눅스 서버의 용도 파악
 2. [부팅 이슈 확인](https://ko.wikipedia.org/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4_%EC%8B%9C%EC%9E%91_%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4) - dmesg -T 명령어로 확인, /var/log/ 아래 파일(리눅스 마다 로그파일 차이가 있음)
 3. 설치 파티션 확인 - df 명령어 사용
-4. 네트워크 구성 확인 - inconfig, netstat -anr
+4. 네트워크 구성 확인 - ifconfig, netstat -anr
 5. 설치 어플리케이션 확인 - initd에서 시작하는 프로세스들이 있어서 확인함. ps -alt로 확인
 
 <br/>
