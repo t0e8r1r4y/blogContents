@@ -40,11 +40,7 @@
 ### 1-5. What is and how to setup a _______?
 
 - Proxy
-    - Reverse Proxy
-    - Forward Proxy
-    - Firewall
-    - Caching Server
-    - Load Balancer
+    - Reverse Proxy, Forward Proxy, Firewall, Caching Server, Load Balancer
     - Web Server
         - Nginx, Tomcat
         - Caddy, Apache, IIS
