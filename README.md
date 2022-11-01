@@ -22,7 +22,7 @@
 - [File System][FILE_LINK]
 - Startup Managemet( initd )
 - [Service Management ( systemd )][Systemd_Link]
-- [Thread][PROCANDTREAD_LINK] and Concurrency
+- [Thread][PROCANDTREAD_LINK] and [Concurrency][CONCURRENCY_LINK]
 
 ### 1-3. Learn about Managing Servers
 
@@ -231,3 +231,4 @@
    [HTTP_LINK]: <https://medium.com/@tas.com/http-websocket-3dbf0ae22be9>
    [COMMAND_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/linux/command.md>
    [SYSMONITOR_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/linux/monitoring.md>
+   [CONCURRENCY_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/OSConcepts/Concurrency.md>
