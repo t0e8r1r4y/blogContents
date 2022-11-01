@@ -177,6 +177,7 @@ tcpCreateClient(int ip, unsigned short port )
 ## ✅ 소켓 통신 방식 TCP/UDP 차이점
 - TCP와 UDP 통신 프로토콜은 같은 네트워크 레이어에서 이루어지는 방식이지만, 통신의 연결방식, 패킷 교환 방식, 수신 여부 확인 방식의 차이로 속도와 데이터 신뢰성에서 차이를 가지고 있습니다.
 - TCP 통신 방식은 데이터 신뢰성을 확보에 목적성이 강하며 아래 세가지 특징을 가지고 있습니다.
+- TCP UDP의 차이라고하면 `흐름제어`이다.
     - :exclamation:[3-way handshaking과 4-way handshaking](https://github.com/t0e8r1r4y/blogContents/blob/main/OSConcepts/handshake.md)을 사용하여 통신 연결상태를 체크하고 송신과 수신의 주체를 명확하게 합니다.
     - 데이터를 수신하면 ACK 혹은 NAK를 전송하여 수신 여부를 체크하여 정확성을 확보합니다.
     - 패킷을 교환하는 과정에서는 TCP HEADER 프레임에 흐름 제어와 혼잡제어에 필요한 데이터를 표시하여 데이터의 신뢰성을 확보합니다.
