@@ -1,7 +1,14 @@
 # 리눅스 명령어
 
 ## 주요 명령어
-- ps, top, htop, atop, lsof, nmon, iostat, sar, vmstat, mtr, ping, nmap, netstat, strace, ftrace, du, df, dmesg, exec, fork, uname -ar,
+- ps, top, htop, atop, lsof, nmon, iostat, sar, vmstat, mtr, ping, nmap, netstat, strace, ftrace, du, df, dmesg, exec, fork, uname -ar, cp
+
+<br/>
+
+## 삭제
+- rm
+![rmrf](https://user-images.githubusercontent.com/91730236/199245137-71a9ca21-baa1-478a-bc83-cffaf81cf0b4.jpeg)
+
 
 
 <br/>
