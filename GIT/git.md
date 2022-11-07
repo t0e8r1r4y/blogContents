@@ -55,7 +55,13 @@ git checkout -b (로컬브랜치) (원격브랜치)
 git checkout -t (원격 브랜치)
 ```
 
-
+## git Subtree 관련 명령어
+- 먼저 병합할 브랜치로 이동한다.
+- git 레포지토리와 local을 연결한다.
+- 그리고 아래 명령어를 입력하여 저장한다.
+```
+git subtree add --prefix=<저장할 폴더명> <자식 레포지토리의 remote명> <부모 레포지토리의 브랜치>
+```
 
 ## 참고자료
 - [git 브랜치 학습 게임](https://learngitbranching.js.org/?locale=ko)
