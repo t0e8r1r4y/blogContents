@@ -1,231 +1,150 @@
-# 로드맵 따라서 기술 스택에 대한 `맥락정보`를 정리합니다.
+> 변경사항 발생 -> [블로그](https://terrys-tech-log.tistory.com/41)와 동기화 맞출 것
 
-# Career Road - DevOps & BackEnd
+![archive-g20cd08ce8_1920](https://user-images.githubusercontent.com/91730236/208429089-eb0b8513-7d4e-4e76-8ab3-890e5cab07a4.jpg)
 
-
-## 1. DevOps
-
-### 1-1. Learn a Programming Language
-
-- C : [C 프로그래밍 참고 Repo][C_LINK]
-- C++, Go, Rust, Python, Ruby, [JS][JS_LINK]/[Node.js][NODEJS_LINK]
-
-### 1-2. Understand different OS Concepts
-
-- [POSIX][POSIX_LINK]
-- [Networking][NETWORK_LINK]
-- [Sockets][SOCK_LINK]
-- [Procss][PROCANDTREAD_LINK]
-- I/O Management
-- Virtualization
-- Memory / Storage
-- [File System][FILE_LINK]
-- Startup Managemet( initd )
-- [Service Management ( systemd )][Systemd_Link]
-- [Thread][PROCANDTREAD_LINK] and [Concurrency][CONCURRENCY_LINK]
-
-### 1-3. Learn about Managing Servers
-
-- [arm linux][ARM_LINUX_LINK]
-- [linux command][COMMAND_LINK]
-- [system monitoring][SYSMONITOR_LINK]
-    
-    
-
-### 1-4. Networking, Security and Protocol
-
-- FTP, [SSH][SSH_LINK]
-- [HTTP(HTTPS)][HTTP_LINK], SSL, TLS, Port Forwarding
-
-### 1-5. What is and how to setup a _______?
-
-- [Proxy][Proxy_LINK]
-    - Reverse Proxy, Forward Proxy, Firewall, Caching Server, Load Balancer
-    - Web Server
-        - Nginx, Tomcat
-        - Caddy, Apache, IIS
-
-<aside>
-👇🏽 위 내용을 베이스로 실제 업무에서 사용되는 구현체에 대한 기술 스택들이 아래 내용이 됨
-
-</aside>
+2022년 하반기, 이직을 준비하며 여러 도서를 단기간에 줄줄줄 읽어내려갔습니다. 물론 다 알지는 못합니다... 시간적인 이유로 기록을 등한시 할 수밖에 없어서 이렇게 INDEX 기반으로 정리하고자 합니다. 면접이라는 제한된 시간 내에 단편적인 대답을 하는 모범 답안들은 인터넷에 많지만, 개인적으로 공식문서나 발간된 도서들 기준으로 키워드를 정리해보고자 정리합니다.
 
 ---
 
-### 1-6. Learn Infrastructure as Code
+### 키워드 분류 체계
 
-- [container][CONTAINER_LINK] : Docker, LXC
-- Service Mesh : Consul, Istio, Envoy, Linkerd
-- Configuration Mgmt : Ansible, Chef, Salt, Puppet
-- Container Orchestration : Kubernetes, Docker Swarm, Nomad, Mesos
-- Infrastructure Provisioning : Terraform, AWS CDK, CloudFormation, Pulumi
-
-### 1-7. Learn som CI/CD Tool
-
-- Jenkins, GitHub Actions, Travis CI
-- Bamboo, TeamCity, Azure DevOps Service, Circle CI, Drone
-
-### 1-8. Learn how to monitor software and infrastructure
-
-- Infrastructure Monitoring : [Prometheus][PROMETHEUS_LINK], Grafana, Nagios, Zabbix, Monit, Datadog
-- Application Monitoring : Jaeger, New Relic, AppDynamic, Istana, Open Telemety
-- Logs Management : Elastic Stack, Graylog, Splunk, Papertail, Loki
-
-### 1-9. Cloud Design Pattern
-
-### 1-10. Cloud Providers
-
-- AWS, Google Cloud, Alibaba, Digital Ocean
-- Naver
-- Azure, Linode, Heroku, Vultr
+-   언어 : C, C++, C#, PHP, Rust, Java, Kotlin, Python, Ruby, JS, TS
+-   OS Concepts : POSIX, Networking, Sockets, Process, Thread, Concurrency, I/O Management, Virtualization, Memory, Storage, File System,
+-   Linux Mananging : Startup Management( initd ), Service Management (systemd ), arm linux, linux command, system monitoring
+-   Networking, Sercurity and Protocol : FTP, SSH, HTTP(HTTPS), SSL, TLS, Port Forwarding
+-   Proxy : Reverse Proxy, Forward Proxy, Caching Server, Load Balaner, Web Server
+-   Container : Docker, LXC
+-   Container Orchestration : Kubernetes, Docker Swarm, Nomad, Mesos
+-   Infrastructure Provisioning : Terraform, AWS CDK, CloudFormation, Pulumi
+-   CI/CD : Jenkins, GitHub Actions, Travis CI
+-   Monitor software and infrastructure : Prometheus, Grafana, Datadog, Elastic Stack
+-   Design Pattern
+    -   Design Pattern
+    -   Architectural Patterns : Monolithic, SOA, MSA, CQRS, Event Sourcing, Serverless, EDA
+    -   Cloud Design Pattern
+-   Database
+    -   Relational Database : PostgreSQL, MySQL, MariaDB, MS SQL, Oracle
+    -   NoSQL Database : Document, Column, Time Series, Realtime
+    -   More about Database : ORMs, ACID & Transaction, N+1 Problem, 데이터베이스 정규화/반정규화, Index와 동작원리
+-   APIs : Authentication(Cookie Based, OAuth, JWT etc), Open API, Swagger, gRPC
+-   Caching : CDN, Client Side, Server Side, Redis, Memcached, Local, Global
+-   Message Brokers : Kafka, RabbitMQ
+-   GraphQL
+-   WebSockets
+-   Testing : Functional Testing, Unit Testing, Integration Testing
+-   Web Security Knowledge
 
 ---
 
-## 2. BackEnd
+### 도서 (개인 소장 서적 기준)
 
-### 2-1. Internet
+#### 아키텍처 + 방법론
 
-- [Web 동작 과정][WEBWORKING_LINK]
-- DNS and how it works?
-- hosting 이란?
-- Browsers and how they work?
+-   그림으로 배우는 IT 인프라 (책, PDF)
+-   조대협의 서버 사이드 대용량 아키텍처와 성능 튜닝 (책, PDF)
+-   가상 면접 사례로 배우는 대규모 시스템 설계 기초 (책)
+-   클린코드 (책, PDF)
+-   쉽게 배워 바로 써먹는 디자인 패턴 (책, PDF)
 
-### 2-2. [Basic Frontend Knowlege][FRONT_LINK]
+#### AWS
 
-- HTML, CSS, JS
-- React, tailwind
+-   배워서 바로 쓰는 14가지 AWS 구축 패턴 (책, PDF)
+-   아마존 웹서비스 부하 테스트 입문 (책, PDF)
 
-### 2-3. OS and General Knowledge
+#### 컨테이너, 오케스트레이션 툴
 
-- [Terminal Usage][COMMAND_LINK]
-- How OSs work in General
-- Process Management
-- Thread and concurrency
-- Memory Management
-- Interprocess Communication
-- I/O Management
-- POSIX Basics
-- Basic Networking Concepts
+-   제대로 배우는 도커 (책, PDF)
+-   예제로 배우는 도커 (책, PDF)
+-   쿠버네티스 입문 (책, PDF)
+-   쿠버네티스, 컨테이너 관리의 정석 (책, PDF)
+-   쿠버네티스 인 액션 (책, PDF)
+-   칼리 리눅스로 파헤치는 도커 해킹 (책, PDF)
+-   리눅스 컨테이너 LXC (책, PDF)
 
-### 2-4. Learn a Language + Framework
+#### 오픈소스
 
-- [JAVA(Spring boot)][SPRING_LINK], [TS(NestJS)][TS_LINK]
-- Rust, Go, C#, PHP, Python, Ruby, [JS][JS_LINK]
+-   Istio로 시작하는 서비스메시 (책, PDF)
+-   Istio 첫걸음 (책, PDF)
+-   프로메테우스 인프라스트럭처 모니터링 (책, PDF)
+-   카프카, 데이터 플랫폼의 최강자 (책, PDF)
+-   실전 아파치 카프카 (책, PDF)
+-   아파치 플링크 (책, PDF)
 
-### 2-5. Version Control System & Repo hosting Service
+#### 데이터 베이스
 
-- [Git & GitHub][GIT_LINK]
+-   Real MySQL 1권, 2권 (책, PDF)
+-   친절한 SQL 튜닝 (책, PDF)
+-   SQL 튜닝 비법 (책, PDF)
+-   SQL 레벨업 (책, PDF)
+-   오라클 성능 고도화 원리와 해법 1권, 2권 (책, PDF)
+-   Real MariaDB (책, PDF)
+-   실전 데이터베이스 모델링 (책, PDF)
+-   SQL 전문가 가이드 - 자격증 SQLD 문제풀이 (책, PDF)
 
-### 2-6. Database
+#### OS + CS + 알고리즘
 
-- [데이터 베이스 스터디][DB_LINK]
-- [Relational Database][RDB_LINK] : PostgreSQL, MySQL, MariaDB, MS SQL, Oracle
-- [NoSQL Database][NoSQL_LINK] : Document, Column, Time series, Realtime
-- [More about Database][MOREDB_LINK] : [ORMs][ORMs_LINK], [ACID & Transaction][TRANSCATIONACID_LINK], N+1 Problem, 데이터베이스 정규화/반정규화, [Indexes and how they work][INDEX_LINK]
+-   리눅스 커널의 구조와 원리 1권, 2권 (책, PDF)
+-   운영체제 9th (책, PDF)
+-   리눅스 바이블 (책, PDF)
+-   프로르매이 대회에서 배우는 알고리즘 문제해결 전략  1권, 2권(책, PDF)
 
-### 2-7. APIs
+#### 스프링 프레임워크
 
-- HATEOAS
-- Open API Spec and Swagger
-- Authntication
-    - Cookie Based, [OAuth][OAuth_LINK], [JWT][JWT_LINK] etc…
-- JSON APIs
-- gRPC
+-   토비의 스프링 1권 2권 (책, PDF)
+-   실전! 스프링5를 활용한 리액티브 프로그래밍 (책, PDF)
 
-### 2-8. [Caching][CACHE_LINL]
+#### Servlet & JSP
 
-- CDN, Client Side, Server Side
-- Redis, Memcached
+-   Head first Servelt & JSP (책, PDF)
 
-### 2-9. Web Security Knowledge
+#### JAVA
 
-- HTTPS, SSL/TLS, CORS, OWASP Security Risks, Content Security Policy
-- Hashing Algorithms
-    - scrypt, bcrypt, SHA Family
-    
+-   자바의 신 1권 2권 (책, PDF)
+-   이팩티브 자바 (책, PDF)
+-   모던 자바 인 액션 (책, PDF)
 
-### 2-10. [Testing][TEST_LINK]
+#### 네트워크
 
-- Functional Testing → Unit Testing → Integration Testing
+-   시스코 네트워크 (책, PDF)
 
-### 2-11. CI/CD
+#### C언어
 
-### 2-12. Design and Development Principles
+-   열혈 C 프로그래밍 (책, PDF)
+-   열혈 TCP/IP (책, PDF)
 
-- [Domain Driven Design][DDD_LINK]
-- [Test Driven Development][TDD_LINK]
-- [SOLID][SOLID_LINK]
+#### NODEJS
 
-### 2-13. Architectural Patterns
+-   Do it! Node JS 프로그래밍 (책, PDF)
 
-- Monolithic Apps
-- [Microservices][MSA_LINK]
-- SOA
-- [CQRS][CQRS_LINK] and [Event Sourcing][EVENTSOURCING_LINK]
-- [Serverless][SERVERLESS_LINK]
-- [EDA][EDA_LINK]
+#### 파이썬
 
-### 2-14. Message Brokers
+-   Introduction to Computing and Programming in Python (책, PDF)
 
-- Kafka
-- RabbitMQ
+#### 임베디드
 
-### 2-15. Containerization vs Virtualization + Cloud
+-   임베디드 레시피 (책, PDF)
+-   MATLAB/Simulink와 SDR로 배우는 무선통신과 레이다 (PDF)
+-   임베디드 리눅스 프로그래밍 완전정복 2/e (PDF)
+-   아트멜 스튜디오와 아두이노로 배우는 ATmega328 프로그래밍 (PDF)
+-   ARM으로 배우는 임베디드 리눅스 시스템 (PDF)
+-   ALTERA QUARTU II를 사용한 디지털 논리회로설계 (PDF)
 
-- [about Container][CONTAINER_LINK]
-- docker
+---
 
-### 2-15. [GraphQL][GRAPHQL_LINK]
+### \+ 논문 리딩
 
-- [Apollo][APOLLO_LINK]
-- Relay Modern
+업무를 하면서 가끔은 근본적인 해결 방법을 찾기위해 아이디어를 얻거나 솔루션 자체가 논문인 경우가 있습니다. 또한 기본기라고 할 수 있는 CS에 대한 내용도 논문으로 출간되는 경우가 많습니다. 논문도 적절히 활용하여 업무에 필요한 지식을 확보합니다.
 
-### 2-16. WebSockets
+kiss : [https://kiss.kstudy.com/](https://kiss.kstudy.com/)
 
+riss : [http://www.riss.or.kr/index.do](http://www.riss.or.kr/index.do)
 
+dbpia : [https://www.dbpia.co.kr/](https://www.dbpia.co.kr/)
 
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
-   [JS_LINK]: <https://github.com/t0e8r1r4y/blogContents/tree/main/DEV/lang/js/33-js-concepts>
-   [C_LINK]: <https://github.com/t0e8r1r4y/C-CPLUS/blob/main/README.md>
-   [NODEJS_LINK]: <https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/>
-   [TS_LINK]: <https://github.com/t0e8r1r4y/blogContents/tree/main/DEV/ts>
-   [DB_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DEV/Database/DatabaseStudy.md>
-   [RDB_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DEV/Database/RDB.md>
-   [NoSQL_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DEV/Database/NoSQL.md>
-   [MOREDB_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DEV/Database/MoreAboutDatabase.md>
-   [TRANSCATIONACID_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DEV/Database/MoreAboutDatabase/transaction%26acid.md>
-   [ORMs_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DEV/Database/MoreAboutDatabase/ORMs.md>
-   [MSA_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/ArchitecturalPatterns/MSA.md>
-   [EVENTSOURCING_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/ArchitecturalPatterns/EventSourcing.md>
-   [CQRS_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/ArchitecturalPatterns/CQRS.md>
-   [SERVERLESS_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/ArchitecturalPatterns/Serverless.md>
-   [EDA_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/ArchitecturalPatterns/EDA.md>
-   [INDEX_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DEV/Database/Indexing.md>
-   [APOLLO_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/GraphQL/Apollo.md>
-   [TDD_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DesignAndDevelopmentPrinciple/TDD.md>
-   [DDD_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DesignAndDevelopmentPrinciple/DDD.md>
-   [SOLID_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/DesignAndDevelopmentPrinciple/SOLID.md>
-   [CONTAINER_LINK]: <https://github.com/t0e8r1r4y/container-and-k8s/blob/main/README.md>
-   [WEBWORKING_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/Internet/Web.md>
-   [FRONT_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/BasicFront/BasicFront.md>
-   [SPRING_LINK]: <https://github.com/t0e8r1r4y/springframewordk/blob/main/README.md>
-   [CACHE_LINL]: <https://github.com/t0e8r1r4y/blogContents/blob/main/Cache/Cache.md>
-   [GIT_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/GIT/git.md>
-   [ARM_LINUX_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/linux/armlinux.md>
-   [PROMETHEUS_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/monitorSoftwareAndInfrastructure/prometheus.md>
-   [GRAPHQL_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/GraphQL/graphql.md>
-   [TEST_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/testing/xUnit.md>
-   [POSIX_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/OSConcepts/posix.md>
-   [NETWORK_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/OSConcepts/Networking.md>
-   [SOCK_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/OSConcepts/Sockets.md>
-   [PROCANDTREAD_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/OSConcepts/ProcessAndThread.md>
-   [FILE_LINK]:  <https://github.com/t0e8r1r4y/blogContents/blob/main/OSConcepts/FileSystem.md>
-   [JWT_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/APIS/jwt.md> 
-   [OAuth_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/APIS/OAuth.md>
-   [Systemd_Link]: <https://github.com/t0e8r1r4y/blogContents/blob/main/linux/systemd.md>
-   [SSH_LINK]: <https://medium.com/@tas.com/ssh-%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C-f4079b1103ab>
-   [HTTP_LINK]: <https://medium.com/@tas.com/http-websocket-3dbf0ae22be9>
-   [COMMAND_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/linux/command.md>
-   [SYSMONITOR_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/linux/monitoring.md>
-   [CONCURRENCY_LINK]: <https://github.com/t0e8r1r4y/blogContents/blob/main/OSConcepts/Concurrency.md>
-   [Proxy_LINK]: <https://medium.com/@tas.com/%ED%94%84%EB%A1%9D%EC%8B%9C-%EA%B0%84%EB%8B%A8-%EC%9A%94%EC%95%BD-d84a5c582d54>
+구글 스칼라 :[https://scholar.google.co.kr/schhp?hl=ko](https://scholar.google.co.kr/schhp?hl=ko)
+
+히든 : [https://sci-hub.se/](https://sci-hub.se/)
+
+마지막 업데이트 일시 : 2022.12.19(월) - 21:40
+
+관련 GitHub 업데이트 일시 : 2022.12.19(월) - 21:46
