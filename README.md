@@ -23,7 +23,7 @@
 -   Monitor software and infrastructure : Prometheus, Grafana, Datadog, Elastic Stack
 -   Design Pattern
     -   Design Pattern
-    -   Architectural Patterns : Monolithic, SOA, MSA, CQRS, Event Sourcing, Serverless, EDA
+    -   Architectural Patterns : Monolithic, SOA, MSA, CQRS, Event Sourcing, Serverless, [EDA][EDA]
     -   Cloud Design Pattern
 -   Database
     -   Relational Database : PostgreSQL, MySQL, MariaDB, MS SQL, Oracle
@@ -151,3 +151,11 @@ dbpia : [https://www.dbpia.co.kr/](https://www.dbpia.co.kr/)
 마지막 업데이트 일시 : 2022.12.19(월) - 21:40
 
 관련 GitHub 업데이트 일시 : 2022.12.19(월) - 21:50
+
+
+
+---
+**Thanks!**
+
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+   [EDA]: <https://terrys-tech-log.tistory.com/38>
